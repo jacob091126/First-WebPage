@@ -16,5 +16,5 @@ st.download_button(
     label='CSV로 성적표 다운로드',
     data=dataframe.to_csv(),
     file_name='sample.csv',
-    mine='text/csv'
+    mime='text/csv'
 )
