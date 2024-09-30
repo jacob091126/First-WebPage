@@ -10,11 +10,11 @@ if button:
     st.write(':blue[버튼]이 눌렸습니다 :sparkles:')
 
 random_int = random.randint(0, 100)
-print(random_int)
+st.write(random_int)
 
 dataframe = pd.DataFrame({
     'first column': ['kor','eng','math','science'],
-    'second column': [print(random_int), print(random_int), print(random_int), print(random_int)]
+    'second column': [st.write(random_int), st.write(random_int), st.write(random_int), st.write(random_int)]
 })
 st.download_button(
     label='CSV로 석훈이의 성적표 다운로드',
