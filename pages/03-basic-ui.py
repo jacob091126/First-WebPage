@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 from datetime import datetime as dt
 import datetime
+import random
 
 #버튼 클릭
 button = st.button('버튼을 눌러보세요')
