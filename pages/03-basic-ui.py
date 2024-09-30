@@ -9,7 +9,7 @@ if button:
     st.write(':blue[버튼]이 눌렸습니다 :sparkles:')
 
 dataframe = pd.DataFrame({
-    'first column': ['kor','eng',math',science'],
+    'first column': ['kor','eng',math','science'],
     'second column': [10, 20, 30, 40]
 })
 st.download_button(
