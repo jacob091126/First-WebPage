@@ -7,7 +7,7 @@ import datetime
 button = st.button('버튼을 눌러보세요')
 if button:
     st.write(':blue[버튼]이 눌렸습니다 :sparkles:')
-# 지정한 범위 내에서 랜덤 정수 생성 (1 이상 10 이하)
+
 random_int = random.randint(0, 100)
 print(random_int)
 
