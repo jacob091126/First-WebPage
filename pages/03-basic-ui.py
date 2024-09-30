@@ -22,3 +22,18 @@ st.download_button(
     file_name='sample.csv',
     mime='text/csv'
 )
+
+agree = st.checkbox('동의 하십니까?')
+if agree:
+    st.write('동의 해주셔서 감사합니다 :100:')
+
+mbti = st.radio(
+    '당신의 MBTI는 무엇입니까?',
+    ('ISTJ','ENFP','선택지 없음'))
+
+if mbti == 'ISTJ':
+    st.write('당신은 :blue[현실주의자] 이시네요')
+elif mbti == 'ENFP':
+    st.write('당신은 :green[활동가] 이시네요')
+else:
+    st.write("당신에 대해 :red[알고싶어요]:gray_exclamation:")
